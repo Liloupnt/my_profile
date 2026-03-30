@@ -1,0 +1,81 @@
+/* Fonts */
+body { 
+  background: #F7F9FC;
+  color: #575F7D;
+  font-family: 'Lora', serif;
+  font-size: 17px;
+  margin: 0;
+}
+
+/* Headings */
+h1, h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 { 
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+h2 { 
+  color: #7ECE90;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+/* Container */
+.container { 
+  width: 700px;
+  margin: 40px auto;
+}
+
+/* Card */
+.card-white  { 
+  background-color: white;
+  padding: 60px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 6px;
+  margin: 30px 0;
+  text-align: center;
+}
+
+/* Image */
+.img-circle { 
+  border-radius: 50%;
+  width: 120px;
+}
+
+/* Button */
+.btn-blue { 
+  display: inline-block;
+  background: #6B72E1;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 6px;
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+.btn-blue:hover { 
+  background-color: #5a60d1;
+}
+
+/* Social icons */
+.list-inline { 
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline li { 
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  padding: 12px;
+  border-radius: 50%;
+}
